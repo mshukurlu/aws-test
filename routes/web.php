@@ -22,5 +22,5 @@ Route::get('/aws-ci',function (){
 });
 
 Route::get('/new-page',function (){
-    return 'added new page';
+    return 'added new page test';
 });
