@@ -17,6 +17,6 @@ class AwsCiTest extends TestCase
     {
         $response = $this->get('/aws-ci');
 
-        $response->assertSee('break the test');
+        $response->assertSee('aws ci test');
     }
 }
