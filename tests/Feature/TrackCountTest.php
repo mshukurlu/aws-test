@@ -17,6 +17,6 @@ class TrackCountTest extends TestCase
     {
         $response = $this->get('/new-page');
 
-        $response->assertSee('added new page test 6');
+        $response->assertSee('added new page test 7');
     }
 }
