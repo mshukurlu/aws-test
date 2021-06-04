@@ -20,3 +20,7 @@ Route::get('/', function () {
 Route::get('/aws-ci',function (){
     return 'aws ci test';
 });
+
+Route::get('/new-page',function (){
+    return 'added new page';
+});
