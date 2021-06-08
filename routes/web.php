@@ -24,3 +24,7 @@ Route::get('/aws-ci',function (){
 Route::get('/new-page',function (){
     return 'added new page test 7';
 });
+
+
+Route::get('/log',[\App\Http\Controllers\LogController::class,'store']);
+
